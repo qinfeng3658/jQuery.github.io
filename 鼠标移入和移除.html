@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<ul>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+        <li>魂消香断玉环冷，锦裘绣帕不闻香.......</li>
+    </ul>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script>
+	$("li:odd").css('background','yellow')
+	$("li:even").css('background','royalblue')
+	$('li').mouseover(function(){
+		color = this.style.background
+		$(this).css('background','blue')
+	})
+	var color = ""
+	$('li').mouseout(function(){
+		$('this').css('background','color')
+	})
+</script>
